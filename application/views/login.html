@@ -3,25 +3,43 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<?php echo link_tag('css/styles_login.css')?>
+	<link rel="stylesheet" type="text/css" href="">
 	<title>Incio de sesión</title>
 </head>
+
+<style>
+	
+
+
+/*@media (min-width: 2px) and (max-width: 167.98px) {*/
+	
+
+
+
+
+</style>
 <body>
 	
-	<center><h5 class="align-middle">Inicio de Sesión</h5></center> 
-
-	<form>
-		<div class="container col-12">
-			<div class="form-group offset-4 col-4">
-				<label for="input_Usuario">Usuario:</label>
-				<input type="text" name="input_Usuario" id="input_Usuario" class="form-control">
-				<label for="input_Password">Contraseña:</label>
-				<input type="password" name="input_Password" id="input_Password" class="form-control">
-
-				<button id="btn_inicio" class="btn btn-success col-4 offset-8 mt-2 form-control">Iniciar</button>
+	<div id="" class="container">
+		<form>
+			<div  class=" col-5 div_Sesion">
+				<center><h3 class="">Inicio de Sesión</h3></center> 
+				<div class="form-group offset-1 col-8 offset-sm-1 col-sm-10">
+					<label class="lb_Login col-form-label-lg" for="input_Usuario">Usuario:</label>
+					<input type="text" name="input_Usuario" id="input_Usuario" class="form-control">
+					<label class="lb_Login col-form-label-lg" for="input_Password">Contraseña:</label>
+					<input type="password" name="input_Password" id="input_Password" class="form-control">
+					<button id="btn_inicio" class="btn btn-success col-4 offset-8 mt-2 form-control">Iniciar</button>	
+					<a href="login/registrar" class="offset-8">Registrarse</a>		
+					
+				</div>
+				
+				
+				
 			</div>
-			
-		</div>
-	</form>
+		</form>
+	</div>
 
 	
 
